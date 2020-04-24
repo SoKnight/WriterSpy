@@ -1,0 +1,16 @@
+name: ${project.name}
+main: ru.soknight.writerspy.WriterSpy
+author: SoKnight
+version: ${project.version}
+depend: [SKLibrary]
+api-version: 1.15
+commands:
+  writerspy:
+    aliases: [ws, wspy]
+    description: Plugin info command
+    usage: /writerspy
+permissions:
+  # Allows to see info
+  writerspy.info:
+    description: Allows to use '/writerspy' command
+    default: true
